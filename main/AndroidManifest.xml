@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.davet.beach1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".show_school" />
+        <activity android:name=".State" />
+        <activity android:name=".University_type" />
+        <activity android:name=".CSUSanJose" />
+        <activity android:name=".CSU.CSU_Northridge" />
+        <activity android:name=".CSU.CSU_Sacramento" />
+        <activity android:name=".CSU.CSU_SanBernardino" />
+        <activity android:name=".CSU.CSU_SanDiego" />
+        <activity android:name=".CSU.CSU_SanFrancisco" />
+        <activity android:name=".CSU.CSU_SanLuisObispo" />
+        <activity android:name=".CSU.CSU_SanMarcos" />
+        <activity android:name=".CSU.CSU_Sonoma" />
+        <activity android:name=".CSU.CSU_Stanislaus" />
+        <activity android:name=".CSU.CSU_Fullerton" />
+        <activity android:name=".CSU_List.CSU_Pomona" />
+        <activity android:name=".CSU_List.CSU_Humboldt" />
+        <activity android:name=".CSU_List.CSU_LongBeach" />
+        <activity android:name=".CSU_List.CSU_MontereyBay" />
+        <activity android:name=".Replacements.CSU_Bakersfield" />
+        <activity android:name=".Replacements.CSU_Cal_Maritime" />
+        <activity android:name=".Replacements.CSU_ChannelIslands" />
+        <activity android:name=".Replacements.CSU_Chico" />
+        <activity android:name=".Replacements.CSU_DominguezHills"></activity>
+    </application>
+
+</manifest>
